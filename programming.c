@@ -83,19 +83,60 @@
 //     return 0;
 // }
 
+// #include<stdio.h>
+// #include<string.h>
+
+// int main()
+// {
+//     char a[10] = "Arman";
+
+//     char b[15];
+
+
+//     strcpy(b, "Osman");
+
+//     printf("%s \n", b);
+
+//     return 0;
+// }
+
+// #include<stdio.h>
+// #include<string.h>
+
+// int main()
+// {
+//     char a[20] = "hello ";
+
+//     char b[7] = "world?";
+
+//     int len_a = strlen(a);
+
+//     int len_b = strlen(b);
+
+//     int length = len_a + len_b;
+
+//     for(int i = len_a, j = 0; i < length; i++, j++){
+//         a[i] = b[j];
+//     } 
+
+//     a[length] = '\0';
+
+//     printf("%s %s", a, b);
+
+//     return 0;
+// }
 #include<stdio.h>
 #include<string.h>
 
 int main()
 {
-    char a[10] = "Arman";
+    char a[20] = "hello ";
 
-    char b[15];
+    char b[7] = "world?";
 
+    strcat(a, b);
 
-    strcpy(b, "Osman");
-
-    printf("%s \n", b);
+    printf("%s \n%s", a, b);
 
     return 0;
 }
