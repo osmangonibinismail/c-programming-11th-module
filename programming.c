@@ -125,18 +125,32 @@
 
 //     return 0;
 // }
-#include<stdio.h>
-#include<string.h>
+// #include<stdio.h>
+// #include<string.h>
 
+// int main()
+// {
+//     char a[20] = "hello ";
+
+//     char b[7] = "world?";
+
+//     strcat(a, b);
+
+//     printf("%s \n%s", a, b);
+
+//     return 0;
+// }
+
+#include <stdio.h>
+#include<string.h>
 int main()
 {
-    char a[20] = "hello ";
+    char a[] = "air";
+    char b[] = "air";
 
-    char b[7] = "world?";
+    int champ = strcmp(b, a);
 
-    strcat(a, b);
-
-    printf("%s \n%s", a, b);
+    printf("%d", champ);
 
     return 0;
 }
