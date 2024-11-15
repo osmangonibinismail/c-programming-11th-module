@@ -1,1 +1,2 @@
-0
+Before reverse = Osman;
+After reverse = namsO;

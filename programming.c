@@ -21,7 +21,6 @@
 // {
 //     char str[20] = "Osman?";
 
-
 //     int length = strlen(str);
 
 //     printf("%d", length);
@@ -92,7 +91,6 @@
 
 //     char b[15];
 
-
 //     strcpy(b, "Osman");
 
 //     printf("%s \n", b);
@@ -117,7 +115,7 @@
 
 //     for(int i = len_a, j = 0; i < length; i++, j++){
 //         a[i] = b[j];
-//     } 
+//     }
 
 //     a[length] = '\0';
 
@@ -141,16 +139,60 @@
 //     return 0;
 // }
 
+// #include <stdio.h>
+// #include<string.h>
+// int main()
+// {
+//     char a[] = "air";
+//     char b[] = "air";
+
+//     int champ = strcmp(b, a);
+
+//     printf("%d", champ);
+
+//     return 0;
+// }
+// #include <stdio.h>
+// #include <string.h>
+// int main()
+// {
+//     char str[20] = "Osman";
+
+//     int length = strlen(str);
+
+//     for(int i = 0, j = length - 1; i <= j; i++, j--){
+//         char temp = str[i];
+
+//         str[i] = str[j];
+
+//         str[j] = temp;
+//     }
+
+//     printf("%s", str);
+
+//     return 0;
+// }
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
 int main()
 {
-    char a[] = "air";
-    char b[] = "air";
+    char str[20] = "Osman";
 
-    int champ = strcmp(b, a);
+    char str2[30];
 
-    printf("%d", champ);
+    strcpy(str2, str);
+
+    int length = strlen(str);
+
+    for(int i = 0, j = length - 1; i <= j; i++, j--){
+        char temp = str[i];
+
+        str[i] = str[j];
+
+        str[j] = temp;
+    }
+
+    printf("Before reverse = %s;\nAfter reverse = %s;",str2, str);
 
     return 0;
 }
