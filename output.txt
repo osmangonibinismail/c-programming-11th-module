@@ -1,2 +1,20 @@
-Before reverse = Osman;
-After reverse = namsO;
+Iteration = 0: 
+16 25 44 53 62 
+16 25 44 53 62 
+16 25 44 53 62 
+16 25 44 53 62 
+
+Iteration = 1: 
+16 25 44 53 62 
+16 25 44 53 62 
+16 25 44 53 62 
+
+Iteration = 2: 
+16 25 44 53 62 
+16 25 44 53 62 
+
+Iteration = 3: 
+16 25 44 53 62 
+
+Iteration = 4: 
+

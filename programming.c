@@ -172,27 +172,71 @@
 
 //     return 0;
 // }
-#include <stdio.h>
-#include <string.h>
-int main()
-{
-    char str[20] = "Osman";
+// #include <stdio.h>
+// #include <string.h>
+// int main()
+// {
+//     char str[20] = "Osman";
 
-    char str2[30];
+//     char str2[30];
 
-    strcpy(str2, str);
+//     strcpy(str2, str);
 
-    int length = strlen(str);
+//     int length = strlen(str);
 
-    for(int i = 0, j = length - 1; i <= j; i++, j--){
-        char temp = str[i];
+//     for(int i = 0, j = length - 1; i <= j; i++, j--){
+//         char temp = str[i];
 
-        str[i] = str[j];
+//         str[i] = str[j];
 
-        str[j] = temp;
-    }
+//         str[j] = temp;
+//     }
 
-    printf("Before reverse = %s;\nAfter reverse = %s;",str2, str);
+//     printf("Before reverse = %s;\nAfter reverse = %s;",str2, str);
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+// #include<stdio.h>
+// #include<string.h>
+
+// int main(){
+//     int i, j;
+
+//     int arr[] = {16, 25, 44, 53, 62};
+//     // int arr[20];
+
+//     // scanf("%d", &arr);
+
+//     for(i = 0; i < 5; i++){
+//         printf("Iteration = %d: \n", i);
+//         for(j = 0; j < 5 - i - 1; j++)
+//         {
+//             if(arr[j] > arr[j + 1]){
+//                 int temp = arr[j];
+
+//                 arr[j] = arr[j + 1];
+
+//                 arr[j + 1] = temp;
+//             }
+//             for(int x = 0; x < 5; x++){
+//                 printf("%d ", arr[x]);
+//             }
+
+//             printf("\n");
+//         }
+//         printf("\n");
+//     }
+// }
+
+// #include<stdio.h>
+
+// int main()
+// {
+//     int n, r;
+//     scanf("%d %d", &n, &r);
+
+//     int permu = factorial_ber_koro(n) / factorial_ber_koro(n - r);
+//     printf("%d", permu);
+// }
